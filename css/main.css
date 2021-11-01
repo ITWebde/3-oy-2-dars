@@ -1,0 +1,58 @@
+body 
+{
+    background: #004047;
+}
+.prf 
+{
+    margin-left: 100px;
+    margin-bottom: 13px;
+}
+.h5 
+{
+    color: #79C8C7;
+    
+}
+.bg
+{
+    background: #012F34;
+    position: relative;
+}
+.bg::before
+{
+    content: '';
+    position: absolute;
+    top: 87%;
+    left: 42%;
+    width: 56px;
+    height: 56px;
+
+    background-image: url("./../img/oval.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.jobs 
+{
+    color: #fff;
+    text-align: center;
+    font-style: italic;
+}
+
+.cart
+{
+    background: #002529;
+
+}
+
+.cart::before
+{
+    content: '';
+    position: absolute;
+    top: 87%;
+    left: 42%;
+    width: 56px;
+    height: 56px;
+
+    background-image: url("./../img/cres.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
